@@ -99,11 +99,4 @@ public Task<Result<decimal>> RedeemCouponAsync(string couponCode, decimal orderT
 
 MIT — feel free to copy, adapt, and use `Result` and `ResultExtensions` in your own .NET projects.
 
-```
 
-<ElicitationsGroup message="To wrap up your repository setup:">
-  <Elicitation label="Generate the xUnit test suite to include in the repository" query="Write an xUnit test file testing CheckoutService, OrderProcessingWorkflow, and Order state transitions for the RailwayOrientedCSharp repository."/>
-  <Elicitation label="Generate the .csproj and split files so you can push directly to GitHub" query="Generate the RailwayOrientedCSharp.csproj file and show the exact terminal commands to initialize the Git repository and push to GitHub."/>
-</ElicitationsGroup>
-
-```
